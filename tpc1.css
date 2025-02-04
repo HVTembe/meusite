@@ -1,0 +1,104 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background: #a40808;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.navbar h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navbar nav ul {
+  float: right;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+main {
+  margin: 20px 0;
+}
+
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.car-list li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-list img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.car-list h3 {
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  background: #a40808;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.center{
+  text-align: center;
+}
+.center li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img{
+  height: 200px;
+  width: 200px;
+}
